@@ -1,3 +1,6 @@
 # budget_tracker
 
-A new Flutter project.
+groupe Members:
+rebin rafiq salih
+aland karzan
+namo hussein
