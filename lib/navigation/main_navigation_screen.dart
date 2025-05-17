@@ -32,7 +32,7 @@ class _MainNavigationScreenState extends State<MainNavigationScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('My Wallet', style: TextStyle(color: Colors.white)),
+        title: const Text('Budget Tracker', style: TextStyle(color: Colors.white)),
         backgroundColor: Colors.blueAccent,
         elevation: 0,
         iconTheme: const IconThemeData(color: Colors.white),

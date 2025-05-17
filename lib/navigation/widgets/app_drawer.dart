@@ -22,7 +22,7 @@ class AppDrawer extends StatelessWidget {
             ),
             child: Center(
               child: Text(
-                'My Wallet',
+                'Budget Tracker',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 24,

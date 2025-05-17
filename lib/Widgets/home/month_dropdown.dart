@@ -30,7 +30,7 @@ class MonthDropdown extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16),
-      child: Container(
+      child: SizedBox(
         width: 120,
         child: DropdownButton<String>(
           value: selectedMonth,

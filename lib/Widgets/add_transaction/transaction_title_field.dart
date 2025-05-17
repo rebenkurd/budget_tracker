@@ -4,9 +4,9 @@ class TransactionTitleField extends StatelessWidget {
   final TextEditingController controller;
 
   const TransactionTitleField({
-    Key? key,
+    super.key,
     required this.controller,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

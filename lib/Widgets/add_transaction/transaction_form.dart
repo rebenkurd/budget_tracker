@@ -11,10 +11,10 @@ class TransactionForm extends StatefulWidget {
   final Function() onRefresh;
 
   const TransactionForm({
-    Key? key,
+    super.key,
     this.transaction,
     required this.onRefresh,
-  }) : super(key: key);
+  });
 
   @override
   _TransactionFormState createState() => _TransactionFormState();
@@ -68,7 +68,6 @@ class _TransactionFormState extends State<TransactionForm> {
 
         widget.onRefresh();
         Navigator.pop(context, true);
-        
       } catch (e) {
         _showMessage(context, 'Failed to save transaction: $e');
       }

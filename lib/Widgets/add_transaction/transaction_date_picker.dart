@@ -6,10 +6,10 @@ class TransactionDateField extends StatelessWidget {
   final ValueChanged<DateTime> onDateChanged;
 
   const TransactionDateField({
-    Key? key,
+    super.key,
     required this.selectedDate,
     required this.onDateChanged,
-  }) : super(key: key);
+  });
 
   Future<void> _selectDate(BuildContext context) async {
     final pickedDate = await showDatePicker(

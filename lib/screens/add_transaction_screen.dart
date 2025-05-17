@@ -6,10 +6,10 @@ class AddTransactionScreen extends StatelessWidget {
   final Function() onRefresh;
 
   const AddTransactionScreen({
-    Key? key,
+    super.key,
     this.transaction,
     required this.onRefresh,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
